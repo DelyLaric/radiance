@@ -1,4 +1,4 @@
-import 'bulma/bulma.sass'
+import './assets/style.sass'
 
 export default ({
   Vue
