@@ -1,10 +1,8 @@
 <template>
   <div class="demo-container">
     <div class="code-demo bulma">
-      <html style="padding: 1px; width: 100%">
-        <body>
-          <component :is="component" />
-        </body>
+      <html style="padding: 1px; width: 100%; overflow: hidden">
+        <component :is="component" />
       </html>
     </div>
 

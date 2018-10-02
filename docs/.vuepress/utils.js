@@ -13,7 +13,7 @@ export function buildCodeToComponent (code) {
   if (SFC.template) {
     component.template = SFC.template.content
   } else {
-    component.template = `<div style="width: 100%; height: 100%">${code}</div>`
+    component.template = `<body>${code}</body>`
   }
 
   return component
