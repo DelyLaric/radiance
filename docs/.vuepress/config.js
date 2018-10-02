@@ -24,7 +24,17 @@ module.exports = {
           '/bulma/layout/section',
           '/bulma/layout/footer',
           '/bulma/layout/tiles',
-        ],
+        ]
+      },
+      {
+        title: 'Form',
+        collapsable: false,
+        children: [
+          '/bulma/form/general',
+          '/bulma/form/input',
+          '/bulma/form/textarea',
+          '/bulma/form/select',
+        ]
       }
     ]
   },
