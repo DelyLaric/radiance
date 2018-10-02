@@ -14,17 +14,17 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: 'layout',
+        title: 'Layout',
         collapsable: false,
         children: [
-          'bulma/layout/container',
-          'bulma/layout/level',
-          'bulma/layout/media-object',
-          'bulma/layout/hero',
-          'bulma/layout/section',
-          'bulma/layout/footer',
-          'bulma/layout/tiles',
-        ]
+          '/bulma/layout/container',
+          '/bulma/layout/level',
+          '/bulma/layout/media-object',
+          '/bulma/layout/hero',
+          '/bulma/layout/section',
+          '/bulma/layout/footer',
+          '/bulma/layout/tiles',
+        ],
       }
     ]
   },
