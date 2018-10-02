@@ -9,7 +9,23 @@ module.exports = {
   },
   themeConfig: {
     nav: [
-      { text: 'Guide', link: '/guide/' }
+      { text: 'Guide', link: '/guide/' },
+      { text: 'Bulma', link: '/bulma/layout/level' },
+    ],
+    sidebar: [
+      {
+        title: 'layout',
+        collapsable: false,
+        children: [
+          'bulma/layout/container',
+          'bulma/layout/level',
+          'bulma/layout/media-object',
+          'bulma/layout/hero',
+          'bulma/layout/section',
+          'bulma/layout/footer',
+          'bulma/layout/tiles',
+        ]
+      }
     ]
   },
   configureWebpack: {
